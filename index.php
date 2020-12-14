@@ -60,15 +60,15 @@ Name
 // TODO: Update the values for $host, $user, $pwd, and $db //using the values you retrieved
 //earlier from the Azure Portal. $host = "value of Data Source";
 
-//$host = "zsimic1-mysqldbserver.mysql.database.azure.com";
-//$user = "ruapUser@zsimic1-mysqldbserver";
-//$pwd = "Jasamzvone123";
-//$db = "ruapdb";
-
-$host = "localhost";
-$user = "zsimic1";
+$host = "zsimic1-mysqldbserver.mysql.database.azure.com";
+$user = "ruapUser@zsimic1-mysqldbserver";
 $pwd = "Jasamzvone123";
-$db = "zsimic1";
+$db = "ruapdb";
+
+//$host = "localhost";
+//$user = "zsimic1";
+//$pwd = "Jasamzvone123";
+//$db = "zsimic1";
 // Connect to database.
 $conn = mysqli_connect($host, $user, $pwd, $db);
 if (mysqli_connect_errno())
